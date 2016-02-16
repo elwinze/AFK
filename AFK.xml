@@ -21,11 +21,7 @@
                       </block>
                     </value>
                     <next>
-                      <block type="oled_cleardisplay" id="215">
-                        <next>
-                          <block type="multimedia_doupdate" id="114"></block>
-                        </next>
-                      </block>
+                      <block type="multimedia_doupdate" id="114"></block>
                     </next>
                   </block>
                 </next>
