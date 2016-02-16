@@ -1,26 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="26" inline="false" x="65" y="56">
-    <field name="MODE">UNTIL</field>
-    <value name="NUMBER">
-      <block type="sensor_button" id="84">
-        <field name="OBJECT">ENTER</field>
+  <block type="oled_cleardisplay" id="123" x="240" y="117">
+    <next>
+      <block type="oled_drawtext" id="133">
+        <field name="TEXT">AFK</field>
       </block>
-    </value>
-    <statement name="DO">
-      <block type="multimedia_stopupdate" id="98">
-        <next>
-          <block type="oled_cleardisplay" id="123">
-            <next>
-              <block type="oled_drawtext" id="133">
-                <field name="TEXT">AFK</field>
-                <next>
-                  <block type="multimedia_doupdate" id="114"></block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
+    </next>
   </block>
 </xml>
